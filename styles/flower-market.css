@@ -1,5 +1,17 @@
 
 
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
 
 /* navbar styles */
@@ -32,4 +44,67 @@
     align-items: center;
     gap: 10px;
 }
+
+/* banner styles */
+.color {
+    color: #E95A08;
+}
+.banner {
+    display: flex;
+    margin: 100px 150px;
+    justify-content: space-between;
+
+}
+.banner-text {
+    padding: 150px 0 0 0;
+    text-align: left;
+    max-width: 500px;
+}
+.lite-gray,ul {
+    color: #808080;
+}
+
+/* main section */
+.section-header {
+    text-align: center;
+    margin: 50px 0;
+}
+.flower-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 150px;
+}
+.flower-item {
+    text-align: center;
+    
+}
+.btn{
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+/* flower lover section */
+.flower-lovers {
+    display: flex;
+    margin: 150px 210px;
+    gap: 80px;
+    max-width: 1200px;
+    max-height: 410px;
+}
+.flower-lovers-text {
+    max-width: 500px;
+    
+}
+.flower-lovers-list{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 
