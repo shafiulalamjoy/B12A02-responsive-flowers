@@ -31,6 +31,19 @@
     display: flex;
     gap: 20px;
 }
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+}
+/* shared styles */
+.links{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 16px;
+}
+
 /* cart icon */
 .cart-icon {
     width: 30px;
@@ -140,6 +153,31 @@
 .subscribe-form {
     text-align: center;
     padding: 0 0 100px 0;
+}
+.join{
+    color: white;
+    font-size: 30px;
+    margin: 0 0 20px 0;
+    font-weight: bold;
+}
+/* footer styles */
+.footer { 
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 150px;
+}   
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+} 
+.footer-list{
+    list-style-type: none;
+    padding: 0;
+}
+.social-icons {
+    display: flex;
+    gap: 3rem;
 }
 
 
